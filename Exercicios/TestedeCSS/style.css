@@ -1,7 +1,8 @@
 h1 {
     color: rgb(167, 5, 5);
     background-color: rgb(255, 159, 159);
-    width: 38%;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -23,17 +24,25 @@ h1 {
 p {
    color: rgb(255, 0, 0); 
    background-color: rgb(226, 215, 250);
-   width: 17%;
+  
 }
 
 
 .div-por-dentro{
     background-color: rgb(173, 255, 10);
     height: 50px;
-    width: 30%;
+    width: 100%;
     position: relative;
+    
 }
 .div-por-fora{
     background-color: rgb(229, 253, 179);
     display: flex;
+    width: 100%;
+    justify-content: center;   
+
+}
+.texto-centralizado{
+    text-align: center;
+    
 }
