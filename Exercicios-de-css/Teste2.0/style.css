@@ -1,11 +1,11 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fffcf9;
+    background-color: #ebf8e2;
     margin: 0;
 }
 
 .header{
-    background-color: rgb(23, 11, 67);
+    background-color: rgb(33, 4, 79);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
@@ -26,4 +26,15 @@ body {
     border: 1px solid black;
     border-radius: 10px;
     text-align: center;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+
+.footer{
+    background-color: #5087a5;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
