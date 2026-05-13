@@ -16,6 +16,23 @@ body{
     padding: 20px;
     border-bottom: 2px solid #D4AF37;
 }
+.navbar-toggler{
+    background-color: #D4AF37;
+}
+
+.navbar-a{
+    color: aliceblue;
+}
+.navbar .nav-link{
+    color: #EAEAEA;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover{
+    color: #D4AF37;
+    background: transparent;
+}
+
 
 h1{
     color: #D4AF37;
@@ -51,6 +68,8 @@ a:hover{
     flex-direction: column;
     height: 100%;
 
+    transition: 0.3s;
+
 }
 
 .card img{
@@ -62,4 +81,9 @@ a:hover{
 }
 .card-body {
     flex: 1;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    
 }
