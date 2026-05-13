@@ -1,0 +1,65 @@
+body{
+    background-image: url('../Exercicio2/assets/img/hyrule.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#hero h1{
+    font-size: 4rem;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.navbar{
+    background-color: #081510;
+    padding: 20px;
+    border-bottom: 2px solid #D4AF37;
+}
+
+h1{
+    color: #D4AF37;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    font-weight: bold;
+}
+
+h2{
+    color: #5DA9E9;
+    margin-top: 30px;
+}
+
+p{
+    color: #EAEAEA;
+}
+
+a{
+    color: #7ED957;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    color: #F4D35E;
+}
+
+.card{
+    background-color: #1E3A2D;
+    border: 1px solid #D4AF37;
+    color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.card img{
+    border-bottom: 2px solid #D4AF37;
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-body {
+    flex: 1;
+}
